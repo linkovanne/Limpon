@@ -1,0 +1,45 @@
+.team__card {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .team__card_item {
+    width: 30%;
+    text-align: center; }
+    .team__card_item:nth-of-type(3n+1) {
+      margin-right: 2.5%; }
+    .team__card_item:nth-of-type(3n+2) {
+      margin-right: 2.5%;
+      margin-left: 2.5%; }
+    .team__card_item:nth-of-type(3n) {
+      margin-left: 2.5%; }
+  .team__card_img {
+    text-align: center; }
+    .team__card_img img {
+      width: 85%; }
+  .team__card_position {
+    font-size: 0.88rem;
+    text-transform: uppercase;
+    color: #192b59; }
+  .team__card_name {
+    font-size: 1.63rem;
+    color: #1a88e1; }
+  .team__card_fb {
+    display: block;
+    background: url("../img/social/fb-inactive.png"); }
+    .team__card_fb:hover {
+      background: url("../img/social/fb-active.png"); }
+  .team__card_twit {
+    display: block;
+    background: url("../img/social/twit-inactive.png"); }
+    .team__card_twit:hover {
+      background: url("../img/social/twit-active.png"); }
+  .team__card__ben {
+    display: block;
+    background: url("../img/social/ben-inactive.png"); }
+    .team__card__ben:hover {
+      background: url("../img/social/ben-active.png"); }
+  .team__card_ggl {
+    display: block;
+    background: url("../img/social/ggl-inactive.png"); }
+    .team__card_ggl:hover {
+      background: url("../img/social/ggl-active.png"); }

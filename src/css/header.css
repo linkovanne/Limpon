@@ -1,0 +1,27 @@
+.header__box {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center; }
+
+.header__logo {
+  width: 30%; }
+
+.header__nav {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%; }
+  .header__nav li {
+    list-style-type: none; }
+  .header__nav_item {
+    color: #6e7ea9; }
+    .header__nav_item:hover {
+      text-decoration: underline; }

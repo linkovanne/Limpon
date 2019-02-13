@@ -1,0 +1,8 @@
+.screenshot {
+  background-color: #edf6ff;
+  padding-top: 7.5rem; }
+  .screenshot__heading {
+    margin-bottom: 2.5rem; }
+  .screenshot__img {
+    max-width: 1300px;
+    margin: 0 auto; }

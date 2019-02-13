@@ -1,0 +1,51 @@
+.team
+	// &__box
+	&__heading
+	&__card
+		display: flex
+		align-items: center
+		justify-content: center
+
+		&_item
+			width: 30%
+			text-align: center
+			background-color: #fff
+			&:nth-of-type(3n+1)
+				margin-right: 2.5%
+			&:nth-of-type(3n+2)
+				margin-right: 2.5%
+				margin-left: 2.5%
+			&:nth-of-type(3n)
+				margin-left: 2.5%
+		&_img
+			text-align: center
+			& img
+				width: 85%
+		&_position
+			font-size: 0.88rem
+			text-transform: uppercase
+			color: #192b59
+		&_name
+			font-size: 1.63rem
+			color: #1a88e1
+
+		&_fb
+			display: block
+			background: url('../img/social/fb-inactive.png')
+			&:hover
+				background: url('../img/social/fb-active.png')
+		&_twit
+			display: block
+			background: url('../img/social/twit-inactive.png')
+			&:hover
+				background: url('../img/social/twit-active.png')
+		&__ben
+			display: block
+			background: url('../img/social/ben-inactive.png')
+			&:hover
+				background: url('../img/social/ben-active.png')
+		&_ggl
+			display: block
+			background: url('../img/social/ggl-inactive.png')
+			&:hover
+				background: url('../img/social/ggl-active.png')
